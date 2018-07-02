@@ -1,0 +1,24 @@
+import style from 'react-bootstrap';
+
+body {
+  margin:0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.container{
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  display: grid;
+  width:100%;
+  grid-template-columns: auto auto;
+  .container-item{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
